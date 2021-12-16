@@ -1,0 +1,27 @@
+body{
+	text-align: center !important;
+    background-color: #6ab04c;
+}
+p{
+	margin-top: 20px;
+	font-size: 30px;
+    font-style: italic;
+}
+input{
+	text-align: center;
+}
+.mssg{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+ul{
+   text-decoration-color: #2d3436; 
+}
+
+.btn{
+    background-color: #686de0;
+}
+.btn:hover{
+    background-color: #130f40;
+}

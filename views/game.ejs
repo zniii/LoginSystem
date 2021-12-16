@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<!--Calling all required css and js-->
+	<link rel="stylesheet" href="./css/game.css">
+	<script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+	<link rel="stylesheet" href="./css/main.css">
+	<script src="./js/location.js"></script>
+	<script src="./js//temperature.js"></script>
+</head>
+<body>
+	<h1>Math Game</h1>
+	<div id="app">
+	</div>
+	<!--Presenting exteral apis-->
+	<div class="season">
+		<ul>
+			<li class="temperature">Temperature = </li>
+			<li class="climate">Climate =</li>
+			<li class="location"> Location =</li>
+		</ul>
+	</div>
+	<!--calling main game js-->
+    <script type="text/babel" src="./js/game.jsx">
+    </script>
+	<div name ="footer">
+		<form action="/logout" method="post">
+			<button>Logout</button>
+		</form>
+	</div>
+</body>
+</html>
