@@ -58,10 +58,10 @@ const logIn = async(req,res)=>{
 				res.status(200).send({"Success":"Success!"});
 				
 			}else{
-				res.status(400).send({"Success":"Wrong password!"});
+				res.status(200).send({"Success":"Wrong password!"});
 			}
 		}else{
-			res.status(400).send({"Success":"This Email Is not regestered!"});
+			res.status(200).send({"Success":"This Email Is not regestered!"});
 		}
 	});
 }

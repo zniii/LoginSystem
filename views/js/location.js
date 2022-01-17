@@ -1,4 +1,4 @@
-//this is api for world time and location
+//this is api for world
 $.getJSON("http://worldtimeapi.org/api/timezone/Asia/Kathmandu", function(data){
     console.log(data)
     var location = data.timezone;
